@@ -1,0 +1,2 @@
+C:\Users\zoyaj\source\repos\12_AJAX\obj\Debug\12_AJAX.csproj.AssemblyReference.cache
+C:\Users\zoyaj\source\repos\12_AJAX\obj\Debug\12_AJAX.csproj.CoreCompileInputs.cache

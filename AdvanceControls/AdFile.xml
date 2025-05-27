@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>s1.jpg</ImageUrl>
+		<NavigateUrl>https://unsplash.com/s/photos/samsung-phone</NavigateUrl>
+		<AlternateText>Galaxy S22 Ultra</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>Sansumg</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>s2.jpg</ImageUrl>
+		<NavigateUrl>https://www.pexels.com/search/samsung%20phone/</NavigateUrl>
+		<AlternateText>Free Samsung Phone Photos</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>Sansumg</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>s3.jpg</ImageUrl>
+		<NavigateUrl>https://www.samsung.com/uk/mobile-phone-buying-guide/samsung-phone-ranges-explained/</NavigateUrl>
+		<AlternateText>Free Samsung Phone Photos</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>Sansumg</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>s4.jpg</ImageUrl>
+		<NavigateUrl>https://news.samsung.com/us/galaxy-z-fold3-5g-galaxy-z-flip3-5g-unpacked-2021-next-mobile-innovation/</NavigateUrl>
+		<AlternateText>Galaxy Z Fold3 5G</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>Sansumg</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>s5.jpg</ImageUrl>
+		<NavigateUrl>https://news.samsung.com/in/introducing-the-galaxy-z-fold2-change-the-shape-of-the-future</NavigateUrl>
+		<AlternateText>Galaxy Z Fold2: Change the Shape of the Future</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>Sansumg</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>s3.png</ImageUrl>
+		<NavigateUrl>https://unsplash.com/s/photos/samsung-phone</NavigateUrl>
+		<AlternateText>Samsung Launches Galaxy A53 5G with 64MP OIS Camera</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>Sansumg</Keyword>
+	</Ad>
+</Advertisements>

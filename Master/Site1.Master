@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Master.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="MyDesign.css" rel="stylesheet" />
+    <title>Mental Health and Wellness</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <p style="font-size: xx-large ; color:green ; font-weight:bold">
+    Welcome to the Mental Health and Wellness Hub!</p>
+    <p>
+    Discover various therapies to improve your mental well-being. Click on the links below to learn more about each therapy.</p>
+    <form id="form1" runat="server">
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="Yoga.aspx" target="content-frame">Yoga</a></li>
+                    <li><a href="Zumba.aspx" target="content-frame">Zumba</a></li>
+                    <li><a href="Dance.aspx" target="content-frame">Dance Therapy</a></li>
+                    <li><a href="Meditation.aspx" target="content-frame">Meditation</a></li>
+                    <li><a href="Aromatherapy.aspx" target="content-frame">Aromatherapy</a></li>
+                </ul>
+            </nav>
+            <iframe name="content-frame" style="width: 100%; height: 80vh; border: none;">
+            </iframe>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
