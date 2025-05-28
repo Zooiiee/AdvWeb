@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ConnectionOriented.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Master Page Example</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background-color:lightgray; padding:10px;">
+    <h1>My Website Header</h1>
+    <a href="Home.aspx">Home</a>
+    <a href="About.aspx">About</a>
+    <hr />
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+</div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+    </form>
+</body>
+</html>
