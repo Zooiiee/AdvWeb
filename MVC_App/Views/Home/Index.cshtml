@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "Birthday Invitation";
+}
+
+<div class="jumbotron text-center" style="background-color: #ffe0f0; padding: 3rem; border-radius: 15px;">
+    <h1 style="color: #d63384;">You're Invited To Zoya's Birthday Celebration! 🎉</h1>
+    <p class="lead" style="font-size: 1.5rem; color: #d63384;">
+        Join us for a fun-filled birthday celebration with games, food, and laughter!
+    </p>
+    <p><a href="#details" class="btn btn-lg btn-success" style="background-color:mediumvioletred">See Party Details &raquo;</a></p>
+</div>
+<div class="container" id="details">
+    <div class="row mb-4 d-flex align-items-stretch">
+        <div class="col-md-6 mb-3">
+            <div class="h-100 d-flex flex-column justify-content-center text-center"
+                 style="background-color: #fff3cd; padding: 1.6rem; border-radius: 10px;">
+                <h2 style="color: #856404;">📅 When</h2>
+                <p style="font-size: 1.3rem;">
+                    Saturday, April 20th, 2025<br />
+                    3:00 PM - 7:00 PM
+                </p>
+                <p><a class="btn btn-warning" href="#">Add to Calendar &raquo;</a></p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="h-100 d-flex flex-column justify-content-center text-center"
+                 style="background-color: #d1ecf1; padding: 1.6rem; border-radius: 10px;">
+                <h2 style="color: #0c5460;">📍 Where</h2>
+                <p style="font-size: 1.1rem;">
+                    Sunshine Park Pavilion<br />
+                    123 Celebration Lane<br />
+                    Happyville, HV 45678
+                </p>
+                <p><a class="btn btn-info" href="https://maps.google.com" target="_blank">Get Directions &raquo;</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4 d-flex align-items-stretch">
+        <div class="col-md-6 mb-3">
+            <div class="h-100 d-flex flex-column justify-content-center text-center"
+                 style="background-color: #e2f0cb; padding: 1.6rem; border-radius: 10px;">
+                <h2 style="color: #3e721d;">📩 RSVP</h2>
+                <p style="font-size: 1.3rem;">Please let us know if you can join the party by April 15th.</p>
+                <p>
+                    <a href="@Url.Action("RSVP", "Home")" class="btn btn-success btn-lg">RSVP Now 🎉</a>
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6 mb-3">
+            <div class="h-100 d-flex flex-column justify-content-center text-center"
+                 style="background-color: #fce4ec; padding: 1.6rem; border-radius: 10px;">
+                <h2 style="color: #ad1457;">🎁 Return Gift</h2>
+                <p style="font-size: 1.3rem;">Check out the surprise gift we’ve picked for you! Click below to explore.</p>
+                <p>
+                    <a href="@Url.Action("ReturnGift", "Home")" class="btn btn-lg" style="background-color: deeppink; color: white;">
+                        See Your Gift 🎁
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

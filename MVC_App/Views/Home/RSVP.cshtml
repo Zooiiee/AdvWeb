@@ -1,0 +1,55 @@
+﻿@model MVC_App.Models.GuestResponse
+
+@{
+    ViewBag.Title = "RSVP to the Party!";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div style="background-color: #e3f2fd; padding: 2rem; border-radius: 12px; max-width: 600px; margin: auto;">
+    <h2 style="color: #1565c0;">🎉 RSVP Form</h2>
+
+    @using (Html.BeginForm())
+    {
+        <div class="form-group">
+            @Html.LabelFor(m => m.GuestResponseName)
+            @Html.TextBoxFor(m => m.GuestResponseName, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.GuestResponseAge)
+            @Html.TextBoxFor(m => m.GuestResponseAge, new { @class = "form-control", type = "number" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.GuestResponseMoNo, "Mobile Number")
+            @Html.TextBoxFor(m => m.GuestResponseMoNo, new { @class = "form-control", type = "tel" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.GuestResponseEmail)
+            @Html.TextBoxFor(m => m.GuestResponseEmail, new { @class = "form-control", type = "email" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Will you attend?")
+            @Html.DropDownListFor(m => m.GuestResponseRSVP, new SelectList(new[] {
+                new { Value = 1, Text = "Yes" },
+                new { Value = 0, Text = "No" }
+            }, "Value", "Text"), "Select", new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Meal Preference")
+            @Html.DropDownListFor(m => m.GuestResponseVeg, new SelectList(new[] {
+                new { Value = 1, Text = "Vegetarian" },
+                new { Value = 0, Text = "Non-Vegetarian" }
+            }, "Value", "Text"), "Select", new { @class = "form-control" })
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit RSVP</button>
+    }
+</div>
+
+
+
+

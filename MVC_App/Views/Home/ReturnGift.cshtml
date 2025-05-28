@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Return Gift";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center" style="padding: 3rem;">
+    <h1 style="color: #d63384;">🎁 Choose Your Return Gift!</h1>
+    <p style="font-size: 1.2rem;">Click on any link below to explore some amazing return gift options:</p>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-4 mb-3">
+            <a href="https://www.amazon.in/s?k=return+gifts+for+kids" target="_blank" class="btn btn-lg btn-warning w-100">🎁 Amazon</a>
+        </div>
+        <div class="col-md-4 mb-3">
+            <a href="https://www.flipkart.com/search?q=return+gifts+for+kids" target="_blank" class="btn btn-lg btn-primary w-100">🎁 Flipkart</a>
+        </div>
+        <div class="col-md-4 mb-3">
+            <a href="https://www.firstcry.com/search.aspx?q=return+gifts" target="_blank" class="btn btn-lg btn-info w-100">🎁 FirstCry</a>
+        </div>
+    </div>
+
+    <a href="@Url.Action("Index", "Home")" class="btn btn-outline-secondary">← Back to Invitation</a>
+
+</div>
+
+
